@@ -1,0 +1,80 @@
+* {
+  /* padding: 0;
+  margin: 0; */
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0 auto;
+}
+
+body {
+  height: auto;
+}
+
+.navbar {
+  padding: 6px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar,
+.navbar a {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+.header h1 {
+  margin: 0;
+}
+
+section {
+  margin: 4rem;
+}
+
+.guitar-list {
+  color: #363636;
+}
+.btn-primary {
+  background-color: #6dd069;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px;
+}
+
+a.view {
+  padding: 6px;
+  text-align: center;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: #fff;
+  background-color: red;
+  border-radius: 6px;
+}
+.view-top {
+  text-decoration: none;
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  appearance: button;
+}
+
+/* section for reviews/ color grey */
+
+.section-reviews {
+  background-color: #f0f0f0;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  height: 5rem;
+  margin-top: 2rem;
+}
