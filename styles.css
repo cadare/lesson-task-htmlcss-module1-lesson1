@@ -5,7 +5,12 @@
 }
 html,
 body {
+  height100%;
   margin: 0 auto;
+}
+
+section{
+  height: 100vh;
 }
 
 @font-face {
@@ -48,17 +53,22 @@ body {
 }
 .navbar ul {
   width: 15rem;
-
   display: flex;
   justify-content: space-between;
   padding: 12px;
 }
-.header h1 {
+/* first section top header */
+.header-top_block {
+  min-height: 100%;
+  background: url(.//images/home-header.jpg) no-repeat center center fixed;
 }
 
-section {
-  margin: 4rem;
+.header-top h1 {
+  margin: 0;
+  padding: 2rem;
 }
+
+
 
 .guitar-list {
   color: #363636;
