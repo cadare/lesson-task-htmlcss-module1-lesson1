@@ -1,3 +1,5 @@
+
+/* General stuff for site */
 * {
   /* padding: 0;
   margin: 0; */
@@ -8,11 +10,13 @@ body {
   height100%;
   margin: 0 auto;
 }
-
+/* All sections */
 section{
   height: 100vh;
-}
+  width: 100%;
 
+}
+/* Font settings P*/
 @font-face {
   font-family: 'Boots & Spurs';
   src: url('C:\Users\cadar\Desktop\Dev-folder');
@@ -24,11 +28,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Boots & Spurs';
+  font-family: 'Boots & Spurs',Verdana, sans-serif;
 }
 
 body p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto',Verdana, sans-serif;
 }
 
 body {
@@ -94,19 +98,35 @@ a.view {
   background-color: red;
   border-radius: 6px;
 }
-.view-top {
+.Header-view__link {
   text-decoration: none;
   background-color: red;
   color: #fff;
-  padding: 10px;
-  border-radius: 6px;
+  padding: 8px;
+  border-radius: 12px;
   appearance: button;
+  margin-left: 2rem;
+  font-size: large;
+
+  
+}
+
+.fa-arrow-circle-right{
+  vertical-align: middle;
+ font-size:30px;
+ margin-left: 0.5rem;
 }
 
 /* section for reviews/ color grey */
 
-.section-reviews {
+.section-reviews{
   background-color: #f0f0f0;
+}
+
+.ourgitar-img{
+  height:400px;
+  width:400px;
+  border-radius:8px;
 }
 
 .footer {
