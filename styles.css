@@ -148,10 +148,18 @@ a.view {
 .view-guitars{
   height:auto;
 }
+/* footer section below */
 
 .footer {
   background-color: #000;
   color: #fff;
+ height:inherit;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+
+.section-footer{
   height: 5rem;
   margin-top: 2rem;
 }
