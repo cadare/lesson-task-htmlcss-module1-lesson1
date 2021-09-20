@@ -98,12 +98,12 @@ a.view {
 
   text-decoration: none;
   color: #fff;
-  background-color: red;
+  background-color:#D81939;
   border-radius: 6px;
 }
 .Header-view__link {
   text-decoration: none;
-  background-color: red;
+  background-color: #D81939;
   color: #fff;
   padding: 8px;
   border-radius: 12px;
@@ -160,6 +160,7 @@ a.view {
 /* contact section */
 .content-theme{
   overflow:hidden;
+
 }
 
 .contact__section{
