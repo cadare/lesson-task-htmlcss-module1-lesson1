@@ -27,29 +27,23 @@
 
       <div class="contact__section">
         <h1 class="contact__title">Contacts</h1>
-        HTML SCSSResult Skip Results Iframe
-        EDIT ON
-        <!-- The boilerform namespace -->
-        <form class="form" action="" method="post">
-          <fieldset class="c-form">
-            <legend class="c-form__heading">Contact form</legend>
-            <div class="c-form__row">
-              <label for="name" class="c-label">Name</label>
-              <input type="text" name="name" id="name" class="c-input-field" value="" autocorrect="off" required />
-            </div>
-            <div class="c-form__row">
-              <label for="email" class="c-label">Email</label>
-              <input type="email" name="email" id="email" autocapitalize="none" autocorrect="off" class="c-input-field"
-                required />
-            </div>
-            <div class="c-form__row">
-              <label for="message" class="c-label">Your message</label>
-              <textarea name="message" id="message" class="c-input-field c-input-field--multiline" rows="10"></textarea>
-            </div>
-            <div class="c-form__row">
-              <button class="c-button" type="submit">Submit</button>
-            </div>
-          </fieldset>
+        <form action="/action_page.php" class="contact__form">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" value="John Doe">
+          <label for="email">Enter your email:</label>
+          <input type="email" id="email" name="email">
+          <label for="cars">Guitar:</label>
+          <select id="cars" name="cars">
+            <option value="volvo">Adirondack Red</option>
+            <option value="saab">Adirondack Red</option>
+            <option value="fiat">Adirondack Red</option>
+            <option value="audi">Adirondack Red</option>
+          </select>
+          <input type="submit" value="Submit">
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Sign up for email
+          updates.
+          Massage: <textarea rows="3" cols="20" name="comment" form="usrform">
+            Enter text here...</textarea><a href="guitar.html" class="Header-view__link">Send</a>
         </form>
       </div>
       <div class="footer__div">
