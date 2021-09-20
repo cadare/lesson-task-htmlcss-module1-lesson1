@@ -9,6 +9,7 @@ html,
 body {
   height100%;
   margin: 0 auto;
+
 }
 /* All sections */
 section{
@@ -119,11 +120,15 @@ a.view {
  margin-left: 0.5rem;
 }
 
+
+/* ==========================
+=============Home================
+================================= */
 /* section for reviews/ color grey */
 
 
 .section-reviews{
-  background-color: #f0f0f0;
+  background-color:#aeaeae;
   height:auto;
 
 
@@ -149,19 +154,41 @@ a.view {
 .view-guitars{
   height:auto;
 }
+
+
+
+/* contact section */
+.content-theme{
+  overflow:hidden;
+}
+
+.contact__section{
+  height:79vh;
+  margin:0;
+  background-color:#EAEAEA;
+
+ }
+
+
+
+.contact__title{
+  margin:0;
+  text-align: center;
+  padding: 30px;
+}
+
+
+
+
 /* footer section below */
 
-.footer {
+.footer__div {
   background-color: #000;
   color: #fff;
- height:inherit;
-  text-align: center;
-  padding-top: 2rem;
-}
-
-
-.section-footer{
-  height: 5rem;
-  margin-top: 2rem;
-}
-
+  height: 70px;
+  
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  }
+  
