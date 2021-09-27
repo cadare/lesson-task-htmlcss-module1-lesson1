@@ -43,25 +43,35 @@ body {
 
 .navbar {
   padding: 6px;
-  justify-content: space-between;
-  display: flex;
+  /* justify-content: space-between;
+  display: flex; */
 }
 
 .navbar ul {
   list-style: none;
+ 
 }
+
 
 .navbar,
 .navbar a {
   background-color: #000;
   color: #fff;
   text-decoration: none;
+
+}
+.navbar a {
+padding:5px 15px;
+ 
 }
 .navbar ul {
   width: 15rem;
   display: flex;
   justify-content: space-between;
   padding: 12px;
+}
+.header__title{
+  padding-left: 1rem;
 }
 /* first section top header */
 .header-top_block {
@@ -70,9 +80,11 @@ body {
 }
 
 .header-top h1 {
-  margin: 0;
-  padding: 2rem;
+ margin: 0;
   color:#000;
+  font-size: 30px;
+  padding:20px;
+ 
 }
 
 
@@ -105,10 +117,10 @@ a.view {
   text-decoration: none;
   background-color: #D81939;
   color: #fff;
-  padding: 8px;
+  padding: 8px 60px;
   border-radius: 12px;
   appearance: button;
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-size: large;
 
   
@@ -161,6 +173,7 @@ a.view {
 .content-theme{
   overflow:hidden;
 
+
 }
 
 .contact__section{
@@ -182,6 +195,17 @@ a.view {
 
 }
 
+/* current page */
+
+nav .current{
+  font-weight: bolder;
+color:#fff;
+height:25px;
+width:100px;
+text-decoration: underline;
+background-color:#D81939;
+border-radius: 6PX;
+}
 
 
 
