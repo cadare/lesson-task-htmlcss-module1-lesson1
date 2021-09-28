@@ -7,13 +7,13 @@
 }
 html,
 body {
-  height100%;
+  height:100%;
   margin: 0 auto;
 
 }
 /* All sections */
 section{
-  height: 100vh;
+  height: auto;
   /* width: 100%; */
 
 
@@ -41,20 +41,26 @@ body {
   height: auto;
 }
 .header{
+  height:6rem;
   position: sticky;
 top: 0;
+z-index: 999;
+
 }
 
 .navbar {
-  padding: 6px;
-  /* justify-content: space-between;
-  display: flex; */
+
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+
+height:100%;
  
 }
 
 .navbar ul {
   list-style: none;
- 
+ margin:0;
 }
 
 
@@ -76,12 +82,27 @@ padding:5px 15px;
   padding: 12px;
 }
 .header__title{
-  padding-left: 1rem;
+
+  margin:0;
 }
 /* first section top header */
-.header-top_block {
-  min-height: 100%;
-  background: url(.//images/home-header.jpg) no-repeat center center fixed;
+.header-top {
+height:auto;
+  background: url(.//images/home-header.jpg) no-repeat 100% 100%;
+  background-size: cover;
+  /* width: 100%;
+  display:table; */
+  overflow:hidden;
+}
+.header-top{
+  height: 35rem;
+}
+
+.wrapper {
+   position: relative;
+  top:10rem;
+  left:10rem;
+  z-index: 0;
 }
 
 .header-top h1 {
@@ -207,7 +228,7 @@ nav .current{
 color:#fff;
 height:25px;
 width:100px;
-text-decoration: underline;
+/* text-decoration: underline; */
 background-color:#D81939;
 border-radius: 6PX;
 }
