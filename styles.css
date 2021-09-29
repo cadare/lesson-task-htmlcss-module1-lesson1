@@ -177,6 +177,16 @@ a.view {
   border-radius:50%;
 }
 
+.ourgitar{
+  height: 600px;
+  display:flex;
+  align-items: center;
+}
+
+.guitar-list{
+  padding: 2rem;
+}
+
 .guitars-info img{
   height:600px;
  
@@ -206,6 +216,7 @@ a.view {
   height:79vh;
   margin:0;
   background-color:#EAEAEA;
+  display:flex;
 
  }
 
