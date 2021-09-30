@@ -156,17 +156,38 @@ a.view {
 /* section for reviews/ color grey */
 
 .section-reviews {
-  background-color: #aeaeae;
-  height: auto;
+  background-color: #dcdcdc;
+  height: 80vh;
+  margin-bottom: 8rem;
+}
+.reviews__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews-title {
+  margin: 0;
+  padding-top: 5rem;
+  text-align: center;
+  font-size: 2rem;
+
+  font-weight: bolder;
+}
+
+.reviews__wrapper p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .section__ourgitar {
   color: green;
+
   /* text-align: center; */
 }
 
 .section__ourgitar__wrapper {
-  height: 40rem;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,11 +195,26 @@ a.view {
 }
 
 .reviews-img {
-  width: 200px;
+  width: 100px;
   border-radius: 50%;
-  outline: 1px solid red;
+  display: block;
+  margin-left: auto;
+  /* margin-top: 6rem; */
 }
-
+.reviews__list {
+  width: 500px;
+  height: 20rem;
+  /* background-color: #6dd069; */
+  padding-top: 4rem;
+  margin-right: 4rem;
+}
+.reviews__img-card {
+  width: 600px;
+  height: 20rem;
+  /* background-color: aqua; */
+  padding-top: 4rem;
+  margin-left: 4rem;
+}
 .list__guitar-home {
   margin-right: 4rem;
 }
