@@ -339,3 +339,13 @@ nav .current {
   align-items: center;
   justify-content: center;
 }
+
+/* Ourgitar page */
+.ourgitar__wrapper-page {
+  display: flex;
+}
+
+.ourgitar__wrapper-page img {
+  height: 4rem;
+  display: flex;
+}
