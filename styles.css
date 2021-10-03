@@ -253,45 +253,65 @@ a.view {
 
 /* contact section */
 
-/* .contact {
-  background-color: red;
-  height: 100%;
-} */
-/* .contact__section {
-  height: auto;
-  margin: 0;
-  padding: 0;
-} */
+
+.contact{
+  border:2px solid #333;
+}
 
 .contact__title {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  
 }
 
 .contact__form {
-  height: 30rem;
+
   display: flex;
+  align-items: start;
 }
 
-.contact__wrapper {
+input, label, select{
+  width: 60%;
+  
 }
-/* input, textarea, select, button {
-  width : 150px;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-} */
+.form__checkbox-div{
+  width:60%;
+  /* font-size: 10px; */
+height: 1rem;
+/* padding: 1rem; */
+height: 2rem;
+ 
+  display: flex;
+ justify-content:left;
+ align-items: center;
+  margin:0;
+ 
+  }
 
-/* footer section below */
+  .checkbox{
+    display: inline-block; 
+    text-align: left;
+    /* padding-right: 10px; */
+    flex:1;
+  }
+  .form__checkbox-div label{
+    flex:7;
+  }
+
+
+
+
 
 .contact__card-left {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   /* background-color: lightgreen; */
   padding: 6px;
+  margin-right: .2rem;
 }
 
 .contact__card-right {
@@ -300,7 +320,33 @@ a.view {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  margin-left: .2rem;
+  /* margin-top: 1rem; */
+}
+
+.Form__contact-button{
+  width: 20%;
+  text-decoration: none;
+  background-color: #d81939;
+  color: #fff;
+  padding: 12px 80px;
+  border-radius: 12px;
+  appearance: button;
+  font-size: 24px;
+ 
+}
+
+.contact__btn{
+  /* position:relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  border: none;
+    background-color: inherit;
+    text-align: center;
+margin-bottom: 4rem;
+
 }
 
 body::-webkit-scrollbar {
