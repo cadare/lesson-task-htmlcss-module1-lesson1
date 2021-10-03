@@ -342,10 +342,78 @@ nav .current {
 
 /* Ourgitar page */
 .ourgitar__wrapper-page {
+  height: 70vh;
   display: flex;
+  margin-top:4rem;
+}
+/* left card */
+.ourgitar__page-card-left {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-content: center;
+}
+.guitar__display-images {
+  height: 100%;
+  /* border: 1px solid green; */
+  margin: 0;
 }
 
-.ourgitar__wrapper-page img {
-  height: 4rem;
+.wrapping {
+  height: 5rem;
+  width: 30rem;
   display: flex;
+  /* border: 2px solid blue; */
+  justify-content: center;
+  align-content: center;
+  padding-top: .8rem;
+  margin: 0;
+}
+.guitars-display-main-img {
+  margin: 2rem auto 0;
+  width: 28rem;
+  padding:1rem'
+}
+
+.ourgitar__wrapper-page-img {
+  height: 4rem;
+ margin:6px;
+ 
+  
+}
+/* Right card */
+.ourgitar__page-card-right {
+  flex: 1;
+  margin-top: 4rem;;
+/* 
+  background-color: lightblue; */
+}
+
+.wrapper-right {
+  margin: 0 auto;
+  /* margin-bottom: 2rem; */
+  padding: 3rem;
+}
+
+.ourgitar__title {
+  text-align: left;
+}
+
+.wrapper-right p{
+  width:60%;
+  padding: 1rem 0;
+  text-align: left;
+  letter-spacing:1.5;
+
+}
+
+.button__ourgitar {
+  text-decoration: none;
+  background-color: #d81939;
+  color: #fff;
+  padding: 8px 60px;
+  border-radius: 12px;
+  appearance: button;
+  margin-left: 0rem;
+  font-size: large;
 }
