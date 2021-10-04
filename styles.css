@@ -111,14 +111,20 @@ body {
   font-size: 20px;
   line-height: 1.3;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .btn-primary {
   background-color: #6dd069;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
   padding: 6px;
+  text-align: center;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: #fff;
+  border-radius: 6px;
 }
 
 a.view {
@@ -158,7 +164,7 @@ a.view {
 .section-reviews {
   background-color: #dcdcdc;
   height: 80vh;
-  margin-bottom: 8rem;
+  margin-bottom: 1rem;
 }
 .reviews__wrapper {
   display: flex;
@@ -219,7 +225,7 @@ a.view {
   margin-right: 4rem;
 }
 .ourgitar__title {
-  margin: 0;
+  margin-bottom: 0;
   text-align: center;
   color: red;
 }
@@ -237,8 +243,61 @@ a.view {
   padding-left: 19px;
 }
 
-.guitars-info img {
-  height: 600px;
+.home__guitar-title{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.home__guitar-warraper{
+  
+  margin:.5rem;
+ padding:.5rem;
+   max-width: 100%;
+  display:grid;
+ grid-gap: 40px;
+    grid-template-columns: repeat(4, 180px);
+  grid-auto-rows:1;
+  justify-content:center;
+}
+
+
+.home__guitar-warraper-page{
+  
+  margin:.5rem;
+ padding:.5rem;
+   max-width: 100%;
+  display:grid;
+ grid-gap: 40px;
+    grid-template-columns: repeat(3, 180px);
+  grid-auto-rows:1;
+  justify-content:center;
+
+}
+
+
+.guitars-info {
+  height:7rem;
+  margin:0;
+  width:12rem;
+  margin:0.5rem;
+  
+ 
+}
+
+.guitars-info p{
+  margin:0;
+  padding:0;
+  font-weight: bold;
+}
+.guitars-info h6{
+  margin:0;
+  padding:0;
+  font-weight: 300;
+}
+
+.guitars-info img{
+  height:5rem;
+  width:100%;
 }
 
 .ourgitar-img {
@@ -248,7 +307,15 @@ a.view {
 }
 
 .view-guitars {
-  height: auto;
+  height: 85vh;
+}
+
+.guitars-info-flex{
+  display:flex;
+  align-items: center;
+  justify-content:space-between ;
+  padding:.3rem;
+  margin:.6rem;
 }
 
 /* contact section */
@@ -278,14 +345,14 @@ input, label, select{
 .form__checkbox-div{
   width:60%;
   /* font-size: 10px; */
-height: 1rem;
-/* padding: 1rem; */
+
+margin: 1.5rem 0;
 height: 2rem;
  
   display: flex;
  justify-content:left;
  align-items: center;
-  margin:0;
+ 
  
   }
 
