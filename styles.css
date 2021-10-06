@@ -245,7 +245,9 @@ a.view {
 
 .home__guitar-title{
   text-align: center;
-  margin-bottom: 1rem;
+  margin:1.3rem 0;
+  
+
 }
 
 .home__guitar-warraper{
@@ -307,7 +309,10 @@ a.view {
 }
 
 .view-guitars {
-  height: 85vh;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .guitars-info-flex{
@@ -322,13 +327,18 @@ a.view {
 
 
 .contact{
-  border:2px solid #333;
+ 
+  min-height:100%;
+  display:grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+
 }
 
 .contact__title {
   text-align: center;
-  margin-top: 8rem;
-  margin-bottom: 4rem;
+  margin-top: 5rem;
+  margin-bottom: 4.6rem;
   
 }
 
